@@ -1,0 +1,4 @@
+<div class="invoice" *ngFor="let cdc of CDCIds; let i = index">
+  <h1>Invoice Num. {{ cdc }}</h1>
+  Amount: {{ (CDCDetails[i] | async)?.amount }}
+</div>
