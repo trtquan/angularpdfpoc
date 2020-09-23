@@ -7,6 +7,7 @@ import {PrintService} from '../print.service';
   templateUrl: './cdc.component.html',
   styleUrls: ['./cdc.component.css']
 })
+
 export class CDCComponent implements OnInit {
   CDCIds: string[];
   CDCDetails: Promise<any>[];
