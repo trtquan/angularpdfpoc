@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {InvoiceComponent} from './invoice/invoice.component';
+import { CDCComponent } from './cdc/cdc';
 import {PrintLayoutComponent} from './print-layout/print-layout.component';
 
 const routes: Routes = [
@@ -8,7 +8,7 @@ const routes: Routes = [
     outlet: 'print',
     component: PrintLayoutComponent,
     children: [
-      { path: 'invoice/:invoiceIds', component: InvoiceComponent }
+      { path: 'cdc/:cdcIds', component: CDCComponent }
     ]
   }
 ];

@@ -4,14 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PrintLayoutComponent } from './print-layout/print-layout.component';
-import { InvoiceComponent } from './invoice/invoice.component';
 import {PrintService} from './print.service';
+import { CDCComponent } from './cdc/cdc';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrintLayoutComponent,
-    InvoiceComponent
+    CDCComponent
   ],
   imports: [
     BrowserModule,
