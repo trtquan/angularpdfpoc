@@ -1,0 +1,10 @@
+<div [class.isPrinting]="printService.isPrinting">
+  <div style="text-align:center">
+    <h1>
+      Welcome to {{ title }}!
+    </h1>
+    <button (click)="onPrintInvoice()">PRINT INVOICE</button>
+  </div>
+  <router-outlet></router-outlet>
+  <router-outlet name="print"></router-outlet>
+</div>
