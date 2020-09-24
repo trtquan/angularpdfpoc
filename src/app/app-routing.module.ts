@@ -6,7 +6,7 @@ import {PrintLayoutComponent} from './print-layout/print-layout.component';
 const routes: Routes = [
   { path: 'print',
     outlet: 'print',
-    component: PrintLayoutComponent,
+    component: PrintLayoutComponent, 
     children: [
       { path: 'cdc/:cdcIds', component: CDCComponent }
     ]
